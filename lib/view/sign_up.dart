@@ -55,7 +55,7 @@ class _SignUpState extends State<SignUp> {
               },
               child: const Text("Sign Up"),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             InkWell(
               onTap: () {
                 Get.toNamed(NavigationName.Login);

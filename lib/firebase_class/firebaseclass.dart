@@ -4,8 +4,6 @@ import 'package:google_sign_in/google_sign_in.dart';
 signUp(String e1, String p1) {
   FirebaseAuth auth = FirebaseAuth.instance;
   auth.createUserWithEmailAndPassword(email: e1, password: p1);
-  print(e1);
-  print(p1);
 }
 
 bool checkData() {
